@@ -1,36 +1,45 @@
-p {
-    margin-bottom: 0!important;
-    }
-    
-    .card {
+   .body{
+    align-items: center !important;
+   }
+   
+   .card {
     width: 100%;
     background-color: #ffc300 !important;
     padding-top: 10px;
     }
     
+    .navbar .ms-auto {
+      margin-left: auto; /* Pushes the buttons to the right */
+    }
+    
+    .nav-link button {
+      margin-left: 10px;
+    }
+
     button {
-        width: fit-content;
-        min-width: 100px;
-        height: 45px;
-        padding: 8px;
-        border-radius: 5px;
-        border: 2.5px solid #E0E1E4;
-        box-shadow: 0px 0px 20px -20px;
-        cursor: pointer;
-        background-color: white;
-        transition: all 0.2s ease-in-out 0ms;
-        user-select: none;
-        font-family: 'Poppins', sans-serif;
-      }
-      
-      button:hover {
-        background-color: #F2F2F2;
-        box-shadow: 0px 0px 20px -18px;
-      }
-      
-      button:active {
-        transform: scale(0.95);
-      }
+      width: fit-content;
+      min-width: 100px;
+      height: 45px;
+      padding: 8px;
+      border-radius: 15px; /* Adjust this value to round the edges */
+      border: 2.5px solid #E0E1E4;
+      box-shadow: 0px 0px 20px -20px;
+      cursor: pointer;
+      background-color: white;
+      transition: all 0.2s ease-in-out 0ms;
+      user-select: none;
+      font-family: 'Poppins', sans-serif;
+  }
+  
+  button:hover {
+      background-color: #F2F2F2;
+      box-shadow: 0px 0px 20px -18px;
+  }
+  
+  button:active {
+      transform: scale(0.95);
+  }
+  
     
     
     #nav-btn {
@@ -111,6 +120,7 @@ p {
     }
     .row3{
       margin-top: 60px !important;
+      align-items: center;
     }
     
     h1{
