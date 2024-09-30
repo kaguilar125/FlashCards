@@ -41,33 +41,35 @@
               </div>
 
               <div class="d-flex ms-auto">
-                <a class="nav-link" href="#"><button>Add Card</button></a>
+                <a class="nav-link" href="#"><button id="addCardBtn">Add Card</button></a>
                 <a class="nav-link" href="#"><button>Del Cards</button></a>
               </div>
-            </div>
           </nav>
 
 
-        <div id="row2" class="row">
+          <div id="row2" class="row" style="display: none;">
             <div class="col-3">
-                <div class="card">
+              <div class="card">
                 <div class="card-body">
                   <h5 class="card-title">Create Flashcards</h5>
                   <form>
                     <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">Question</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <label for="exampleInputQuestion" class="form-label">Question</label>
+                      <input type="text" class="form-control" id="exampleInputQuestion">
                     </div>
                     <div class="mb-3">
-                      <label for="exampleInputPassword1" class="form-label">Answer</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1">
+                      <label for="exampleInputAnswer" class="form-label">Answer</label>
+                      <input type="text" class="form-control" id="exampleInputAnswer">
                     </div>
-                    <button>Save</button><button>Close</button>
+                    <button type="button" class="custom-btn">Save</button>
+                    <button type="button" class="custom-btn" id="closeCard">Close</button>
+
                   </form>
                 </div>
               </div>
             </div>
-        </div>
+          </div>
+          
 
         <div class="row row3">
           <div class="col-3">
